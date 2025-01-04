@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:growchat/pages/home.dart';
+import 'package:growchat/pages/navbar.dart';
 
 
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Home()
+        home: BottomNave(),
     );
   }
 }
